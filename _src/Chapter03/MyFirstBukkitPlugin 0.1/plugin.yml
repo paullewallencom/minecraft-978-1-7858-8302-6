@@ -1,0 +1,6 @@
+name: MyFirstBukkitPlugin
+version: 0.1
+main: com.codisimus.myfirstbukkitplugin.MyFirstBukkitPlugin
+author: Codisimus
+description: A simple plugin to demonstrate plugin enabling
+website: www.codisimus.com

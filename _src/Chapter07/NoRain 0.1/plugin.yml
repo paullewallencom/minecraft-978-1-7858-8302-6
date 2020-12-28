@@ -1,0 +1,4 @@
+name: NoRain
+main: com.codisimus.norain.NoRain
+version: 0.1
+description: Stops Rain from starting automatically. /toggledownfall still works

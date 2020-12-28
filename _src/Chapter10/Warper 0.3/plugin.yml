@@ -1,0 +1,20 @@
+name: Warper
+main: com.codisimus.warper.Warper
+version: 0.3
+description: Allows Players to teleport by using commands
+commands:
+  home:
+    description: Teleport to your home
+    usage: /home
+  warp:
+    description: Teleport to the specified Warp location
+    usage: /warp [name]
+  sethome:
+    description: Set the location of your home
+    usage: /sethome
+  setwarp:
+    description: Set the location of the specified Warp
+    usage: /setwarp [name]
+  delwarp:
+    description: Delete the specified Warp
+    usage: /delwarp [name]

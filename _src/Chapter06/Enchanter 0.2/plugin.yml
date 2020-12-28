@@ -1,0 +1,15 @@
+name: Enchanter
+version: 0.2
+main: com.codisimus.enchanter.Enchanter
+description: Used to quickly put enchantments on an item
+commands:
+  enchant:
+    aliases: [e]
+    description: Adds enchantments to the item in your hand
+    usage: Hold the item you wish to enchant and type /enchant
+    permission: enchanter.enchant
+    permission-message: You do not have permission to enchant
+permissions:
+  enchanter.enchant:
+    description: Needed to use the enchant command
+    default: op

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MyFirstBukkitPlugin" default="default" basedir=".">
+    <description>Builds, tests, and runs the project MyFirstBukkitPlugin.</description>
+    <import file="nbproject/build-impl.xml"/>
+    <target name="-post-jar">
+        <copy file="${dist.jar}" todir="../Plugin Jars"
+              failonerror="true"/>
+        <copy file="${dist.jar}" todir="C:/Users/Owner/Desktop/Bukkit Server/plugins"
+              failonerror="true"/>
+    </target>
+</project>

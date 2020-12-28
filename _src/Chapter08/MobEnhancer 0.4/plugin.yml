@@ -1,0 +1,14 @@
+name: MobEnhancer
+main: com.codisimus.mobenhancer.MobEnhancer
+version: 0.4
+description: Modifies Mobs as they Spawn
+commands:
+  mobenhancerreload:
+    description: Reloads the config.yml file of the plugin
+    aliases: [mereload, merl]
+    usage: /merl
+    permission: mobenhancer.rl
+    permission-message: You do not have permission to do that
+permissions:
+  mobenhancer.rl:
+    default: op

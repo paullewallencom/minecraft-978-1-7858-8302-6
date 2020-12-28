@@ -1,0 +1,45 @@
+#MobEnhancer Config
+#Set the Health of each Mob Below
+#1.0 is equal to half a heart so a Player has 20.0 health
+#To not modify the health of a specifc Mob you may set it's value to -1.0
+
+
+#Hostile
+ZOMBIE: 20.0
+SKELETON: 20.0
+CREEPER: 20.0
+SPIDER: 16.0
+WITCH: 26.0
+CAVE_SPIDER: 12.0
+SILVERFISH: 8.0
+GHAST: 10.0
+BLAZE: 20.0
+
+
+#Passive
+COW: 10.0
+PIG: 10.0
+SHEEP: 8.0
+BAT: 6.0
+CHICKEN: 4.0
+MUSHROOM_COW: 10.0
+OCELOT: 10.0
+SQUID: 10.0
+VILLAGER: 20.0
+
+
+#Neutral
+PIG_ZOMBIE: 20.0
+ENDERMAN: 40.0
+WOLF: 8.0
+
+
+#Utility
+IRON_GOLEM: 100.0
+SNOWMAN: 6.0
+
+
+#Bosses
+ENDER_DRAGON: 200.0
+WITHER: 300.0
+GIANT: 50.0

@@ -1,0 +1,34 @@
+group.default:
+  description: New Players who may have joined for the first time
+  default: true
+  children:
+    minecraft.command.kill: true
+    minecraft.command.list: true
+group.trusted:
+  description: Players who often play on the server
+  default: false
+  children:
+    group.default: true
+    minecraft.command.weather: true
+    minecraft.command.time: true
+    minecraft.command.teleport: true
+group.mod:
+  description: Players who moderate the server
+  default: false
+  children:
+    group.trusted: true
+    minecraft.command.ban: true
+    minecraft.command.pardon: true
+    minecraft.command.kick: true
+group.admin:
+  description: Players who administer on the server
+  default: false
+  children:
+    group.mod: true
+    minecraft.command.ban-ip: true
+    minecraft.command.pardon-ip: true
+    minecraft.command.gamerule: true
+    minecraft.command.give: true
+    minecraft.command.say: true
+    permissions.manage: true
+    enchanter.enchant: true

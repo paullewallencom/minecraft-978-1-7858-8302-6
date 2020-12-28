@@ -1,0 +1,4 @@
+name: MobEnhancer
+main: com.codisimus.mobenhancer.MobEnhancer
+version: 0.1
+description: Modifies Mobs as they Spawn
